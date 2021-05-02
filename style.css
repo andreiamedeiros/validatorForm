@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+h1 {
+    color: #1C1C1C;
+    text-shadow: 0px 1px 1px #333;
+}
+
+.screen {
+    display: flex;
+    height: 100vh;
+}
+.left--side {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left--side img {
+    max-width: 500px;
+    height: auto;
+}
+.right--side {
+    width: 400px;
+    background-color: #ccc;
+    padding: 50px;
+    height: 80vw;
+}
+.right--side label {
+    display: block;
+    margin-bottom: 20px;
+    color: #363636; 
+}
+.right--side input {
+    width: 100%;
+    border: 1px solid #999;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 14px;
+    outline: 0;
+    color: #363636;
+}
+.right--side input.bt--submit{
+    cursor: pointer;
+    background-color: #90EE90;
+}
+.error {
+    font-size: 11px;
+    background-color: #FF0000;
+    color: #FFF;
+    padding: 4px;
+    border-radius: 5px;
+}
